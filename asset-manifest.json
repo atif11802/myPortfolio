@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.2dd2430f.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.9c8e55be.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.9c8e55be.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.d351083c.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.d351083c.js.map",
+    "static/js/2.526a70dc.chunk.js": "/myPortfolio/static/js/2.526a70dc.chunk.js",
+    "static/js/2.526a70dc.chunk.js.map": "/myPortfolio/static/js/2.526a70dc.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "precache-manifest.6fd95a87f0c5f5aa2ceeb58e7f6ca680.js": "/myPortfolio/precache-manifest.6fd95a87f0c5f5aa2ceeb58e7f6ca680.js",
+    "service-worker.js": "/myPortfolio/service-worker.js",
+    "static/css/main.2dd2430f.chunk.css.map": "/myPortfolio/static/css/main.2dd2430f.chunk.css.map",
+    "static/js/2.526a70dc.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.526a70dc.chunk.js.LICENSE.txt",
+    "static/media/Mern Ecommerce.png": "/myPortfolio/static/media/Mern Ecommerce.244edf94.png",
+    "static/media/avatar.png": "/myPortfolio/static/media/avatar.7c8e5f50.png",
+    "static/media/App.css": "/myPortfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/project2.png": "/myPortfolio/static/media/project2.4d56554c.png",
+    "static/media/project3.png": "/myPortfolio/static/media/project3.7614ce5e.png",
+    "static/media/project4.png": "/myPortfolio/static/media/project4.3a1aca11.png",
+    "static/media/project5.png": "/myPortfolio/static/media/project5.f4fa9523.png",
+    "static/media/project6.png": "/myPortfolio/static/media/project6.462a1a08.png",
+    "static/media/project7.png": "/myPortfolio/static/media/project7.5ff2d5f0.png",
+    "static/media/weather.png": "/myPortfolio/static/media/weather.e55b95fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d351083c.js",
+    "static/js/2.526a70dc.chunk.js",
+    "static/css/main.2dd2430f.chunk.css",
+    "static/js/main.9c8e55be.chunk.js"
+  ]
+}
