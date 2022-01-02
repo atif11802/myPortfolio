@@ -9,7 +9,7 @@ A portfolio single page application using React and Material UI
 Clone the repository using following command or download
 
 ```
-git clone https://github.com/devmahmud/material-ui-portfolio.git
+git clone https://github.com/atif11802/myPortfolio.git
 ```
 
 #### To install dependency
