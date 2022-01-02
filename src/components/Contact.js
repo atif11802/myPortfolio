@@ -7,6 +7,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Send from "@material-ui/icons/Send";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const useStyles = makeStyles((theme) => ({
 	contactContainer: {
@@ -65,6 +67,7 @@ const Contact = () => {
 	const [email, setEmail] = useState("");
 	const [name, setName] = useState("");
 	const [message, setMessage] = useState("");
+	const [success, setSuccess] = useState(false);
 
 	const classes = useStyles();
 
@@ -85,9 +88,15 @@ const Contact = () => {
 			.then(
 				(response) => {
 					console.log("SUCCESS!", response.status, response.text);
+					const notify = () => toast("I received your message!");
+					notify();
+					setSuccess(true);
 				},
 				(err) => {
 					console.log("FAILED...", err);
+					const notify = () => toast("Try again later!");
+					notify();
+					setSuccess(false);
 				}
 			);
 	};
@@ -134,6 +143,31 @@ const Contact = () => {
 					</Button>
 				</Box>
 			</Grid>
+			{success ? (
+				<ToastContainer
+					position='top-right'
+					autoClose={5000}
+					hideProgressBar={false}
+					newestOnTop={false}
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss
+					draggable
+					pauseOnHover
+				/>
+			) : (
+				<ToastContainer
+					position='top-right'
+					autoClose={5000}
+					hideProgressBar={false}
+					newestOnTop={false}
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss
+					draggable
+					pauseOnHover
+				/>
+			)}
 		</Box>
 	);
 };
