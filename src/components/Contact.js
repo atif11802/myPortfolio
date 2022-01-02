@@ -87,14 +87,31 @@ const Contact = () => {
 			)
 			.then(
 				(response) => {
-					console.log("SUCCESS!", response.status, response.text);
-					const notify = () => toast("I received your message!");
+					const notify = () =>
+						toast.success("I received your message", {
+							position: "top-right",
+							autoClose: 5000,
+							hideProgressBar: false,
+							closeOnClick: true,
+							pauseOnHover: true,
+							draggable: true,
+							progress: undefined,
+						});
 					notify();
 					setSuccess(true);
 				},
 				(err) => {
-					console.log("FAILED...", err);
-					const notify = () => toast("Try again later!");
+					// console.log("FAILED...", err);
+					const notify = () =>
+						toast.error("😢 try again later", {
+							position: "top-right",
+							autoClose: 5000,
+							hideProgressBar: false,
+							closeOnClick: true,
+							pauseOnHover: true,
+							draggable: true,
+							progress: undefined,
+						});
 					notify();
 					setSuccess(false);
 				}
