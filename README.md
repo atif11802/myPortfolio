@@ -2,14 +2,14 @@
 
 A portfolio single page application using React and Material UI
 
-### Demo of this site available here [Material-UI-Portfolio Demo](https://materialui-portfolio.netlify.app/)
+### Demo of this site available here [Material-UI-Portfolio Demo](https://atif11802.github.io/myPortfolio/)
 
 #### Installing
 
 Clone the repository using following command or download
 
 ```
-git clone https://github.com/devmahmud/material-ui-portfolio.git
+git clone https://github.com/atif11802/myPortfolio.git
 ```
 
 #### To install dependency
@@ -34,7 +34,7 @@ Server will be available at http://127.0.0.1:3000 in your browser
 
 # Project snapshot
 
-## Home page
+<!-- ## Home page
 
 ![image](https://user-images.githubusercontent.com/19981097/86140838-218ec980-bb13-11ea-87c5-504d68c8d2a4.png)
 
@@ -52,13 +52,13 @@ Server will be available at http://127.0.0.1:3000 in your browser
 
 ## Contact
 
-![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png)
+![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png) -->
 
 ## Author
 
 <blockquote>
-Mahmudul alam
-Email: expelmahmud@gmail.com
+Md. Atif Aslam
+Email: ratul0947@gmail.com
 </blockquote>
 
 ========Thank You !!!=========
