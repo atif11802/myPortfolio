@@ -1,6 +1,5 @@
 {
 	"name": "portfolio",
-	"homepage": "https://myusername.github.io/myPortfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
