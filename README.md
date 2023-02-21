@@ -2,7 +2,7 @@
 
 A portfolio single page application using React and Material UI
 
-### Demo of this site available here [Material-UI-Portfolio Demo](https://atif11802.github.io/myPortfolio/)
+### Demo of this site available here [Material-UI-Portfolio Demo](https://my-portfolio-sable-two.vercel.app/myPortfolio)
 
 #### Installing
 
