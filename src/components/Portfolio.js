@@ -17,6 +17,7 @@ import project5 from "../images/project5.png";
 import project6 from "../images/project6.png";
 import project7 from "../images/project7.png";
 import projectrq from "../images/project2.png";
+import Fbclone from "../images/Facebookclone.jpg";
 
 const useStyles = makeStyles((theme) => ({
 	mainContainer: {
@@ -35,7 +36,14 @@ const projects = [
 		description:
 			"This is a fun project made by me. It is a ecommerce website made with React, Redux   and bootstrap.complete buy sell and with user profile and admin dashboard for admin.Used Paypal for payment  payment.and used localStorage for the cart.mongodb used here as the Database",
 		image: project1,
-		link: "https://matikatashopapp.herokuapp.com/",
+		link: "https://nextjs-ecommerce-xi-eight.vercel.app/",
+	},
+	{
+		name: "Facebook Clone (MERN STACK)",
+		description:
+			"Facebook clone made with React,node and mongodb as the database.Used firebase for the authentication and hosting",
+		image: Fbclone,
+		link: "https://facebook-clone-client-ten.vercel.app/",
 	},
 	{
 		name: "Infinite scroll with React(with react query and without)",
